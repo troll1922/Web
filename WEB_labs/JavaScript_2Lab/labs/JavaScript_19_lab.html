@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>JavaScript</title>
+	<script type="text/javascript">
+		document.write("<h1 style='text-align:center;'>Вариант №19</h1><p>Вывести текущую дату в новом окне, нажав не кнопку<p>");
+		document.write("<div style='background:#fc0;width:300px;height:40px;text-align:center;padding-top:15px;' name='info_date' onMouseOver='info_date()'>Наведи на меня и узнаешь дату</div>");
+		document.write("<p>Задание выполнил студент гр.ЦИСТв-51 Фомичёв А.В.</p>");
+		function info_date(){
+			var date_ = new Date();
+			var str = date_.toLocaleString();
+			document.write("<h3>"+str+"</h3>");
+		}
+	</script>	
+</head>
+<body>
+	
+</body>
+</html>
+

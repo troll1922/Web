@@ -1,0 +1,187 @@
+body {
+	background: silver;
+	padding-left: 50%;
+	margin: 0;
+}
+/**{
+	border: 1px black solid;
+}
+*/
+.main {
+	background: url(images/bg.gif);
+	width:800px;
+	height:700px;
+	margin-left: -400px;
+}
+.logo-b {
+	background: url(images/logo-b.gif) no-repeat;
+	width:160px;
+	height:170px;
+	float: left;
+	margin-left: 45px;
+}
+.mid-ob {
+	background: url(images/mid-ob.gif) no-repeat;
+	width:400px;
+	height:130px;
+	float: left;
+}
+.header_left {
+	width:170px;
+	height:150px;
+	float: left;
+}
+.ms1 {
+	background: url(images/ms1.gif) no-repeat;
+	width:78px;
+	height:125px;
+	float: left;
+}
+.ms2 {
+	background: url(images/ms2.gif) no-repeat;
+	width:80px;
+	height:125px;
+	float: left;
+}
+.slogan {
+	font: bold 11px Tahoma;
+	letter-spacing: -0.8px;
+	margin-top: 132px;
+	margin-left: -15px;
+}
+.rus-eng {
+	background: url(images/rus-eng.gif) no-repeat;
+	width:150px;
+	height:20px;
+	float: left;
+	margin-top: 3px;
+}
+.menu {
+	clear: both;
+	width:800px;
+	height:150px;
+}
+.menu div {
+	float: left;
+	width:90px;
+	height:110px;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+.about {
+	background: url(images/about1.gif) no-repeat;
+}
+.obuch {
+	background: url(images/obuch1.gif) no-repeat;
+}
+.tech {
+	background: url(images/tech1.gif) no-repeat;
+}
+.sertif {
+	background: url(images/sertif1.gif) no-repeat;
+}
+.testir{
+	background: url(images/testir1.gif) no-repeat;
+}
+.vopros{
+	background: url(images/vopros1.gif) no-repeat;
+}
+.slush{
+	background: url(images/slush1.gif) no-repeat;
+}
+.news {
+	background: silver;
+	width:300px;
+	height:210px;
+	float: left;
+	margin-left: 55px;
+	margin-top: 20px;
+	padding: 0px;
+}
+.news_letter{
+	background: url(images/news.gif) no-repeat;
+	width:60px;
+	height:14px;
+	margin-top: 7px;
+	margin-left: 10px;
+}
+.news_content{
+	background: white;
+	width:272px;
+	height:164px;
+	font-family:Tahoma;
+	letter-spacing: 1px;
+	font-size:12px;
+	padding: 10px;
+	margin-left: 4px;
+}
+.spec{
+	background: silver;
+	width:300px;
+	height:210px;
+	float: left;
+	margin: 20px 0px 30px 80px;
+	padding: 0px;
+}
+.spec_letter{
+	background: url(images/spetials.gif) no-repeat;
+	width:160px;
+	height:14px;
+	margin-top: 7px;
+	margin-left: 10px;
+}
+.spec_content{
+	background: white;
+	width:272px;
+	height:164px;
+	font-family:Tahoma;
+	letter-spacing: 1px;
+	font-size:12px;
+	padding: 10px;
+	margin-left: 4px;
+}
+.picture_microsoft{
+	background: url(images/xp2.gif) no-repeat;
+	width:50px;
+	height:61px;
+	float: left;
+	margin-top: -2px;
+	margin-right: 6px;
+}
+.footer{
+	clear: both;
+	background: white;
+	border: 2px silver solid;
+	width:680px;
+	height:30px;
+	margin-top: 100px;
+	margin-left: 55px;
+}
+.dop{
+	background: url(images/dopol.gif) no-repeat;
+	width:80px;
+	height:12px;
+	margin-left: 10px; 
+	margin-right: 10px;
+	float: left;
+}
+.footer div{
+    font: normal 12px Tahoma;
+	margin-top: 7px;
+	float: left;
+	color: grey;
+}
+.addres {
+    font: normal 12px Tahoma;
+	margin-top: 25px;
+	color: grey;
+	margin-left: 250px;
+}
+a:link{
+	color: grey;
+	text-decoration: none;
+}
+a:visited{
+	color: red;
+	text-decoration: none;
+}

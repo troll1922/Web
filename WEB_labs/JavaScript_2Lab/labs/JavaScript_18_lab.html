@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>JavaScript</title>
+	<script type="text/javascript">
+		var start;
+		document.write("<h1 style='text-align:center;'>Вариант №18</h1><p>Реализовать идущие часики в строке статуса<p>");
+		document.write("<input type='button' name='start' value='Включить часики' onClick=startClock();>");
+		document.write("<input type='button' name='start' value='Выключить часики' onClick=stopClock();>");
+		document.write("<p>Задание выполнил студент гр.ЦИСТв-51 Фомичёв А.В.</p>");
+		function startClock(){
+			if (!start)
+			start = window.setInterval("Myclocks()",1000);
+		}
+		function stopClock(){
+			window.clearInterval(start);
+			start = null;
+			window.defaultStatus = "";
+		}
+		function Myclocks(){
+			var date_ = new Date();
+			var str = date_.toLocaleString();
+			window.defaultStatus = str;
+		}
+	</script>	
+</head>
+<body>
+	
+</body>
+</html>
+

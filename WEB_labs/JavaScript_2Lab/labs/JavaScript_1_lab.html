@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>JavaScript</title>
+	<script type="text/javascript">
+		alert ('Вариант № 1 "В предложении удалить все гласные буквы. Вывести результат в новом окне."');
+		var str = prompt("Введите предложение","");
+		var dlina_str = str.length;
+		var str_otvet = "";
+		var arr_glasn = new Array("А","а","E","е","Ё","ё","И","и","О","о","У","у","Ы","ы","Э","э","Ю","ю","Я","я");
+		for (var i=0;i<dlina_str;i++) {
+		var char_buf = str.substr(i,1);
+		var znak;
+			for (var j=0;j<arr_glasn.length;j++) {
+				if (char_buf==arr_glasn[j]) {znak = 0; break;}
+				else znak = 1;
+			}
+			if (znak == 1) str_otvet += char_buf;
+		}
+		document.write('Вариант № 1 "В предложении удалить все гласные буквы. Вывести результат в новом окне."' + '<br>');
+		document.write('Ваше предложение: ' + str + '<br>');
+		document.write('Ответ: ' + str_otvet + '<br>');
+		document.write('Задание выполнил студент гр.ЦИСТв-51 Фомичёв А.В.');
+	</script>
+</head>
+<body>
+	
+</body>
+</html>

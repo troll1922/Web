@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>JavaScript</title>
+	<script type="text/javascript">
+		document.write("<h1 style='text-align:center;'>Вариант №13</h1><h3>Реализовать динамическое изменение нескольких картинок</h3>");
+		document.write("<image name='picture_1' src='../images/edge_code_htmlcssjs.png' width='220' height='120'><br>");
+		document.write("<input type='button' name='13_variant' value='Картинка_1' onclick='more()'>");
+		document.write("<input type='button' name='13_variant' value='Картинка_2' onclick='less()'>");
+		document.write("<p>Задание выполнил студент<br>гр.ЦИСТв-51 Фомичёв А.В.</p>");
+		document.write("<div style='position:absolute; top:110px; left:250px;'><image name='picture_2' src='../images/Some-Usefu.jpg' width='150' height='100' onMouseOver='Over()' onMouseOut='Out()'></div>");
+		function Over(){
+			document.picture_2.width="250";
+			document.picture_2.height="200";
+		}
+		function Out(){
+			document.picture_2.width="150";
+			document.picture_2.height="100";
+		}
+		function more(){
+			document.picture_1.src='../images/edge_code_htmlcssjs.png';
+		}
+		function less(){
+			document.picture_1.src='../images/image.jpeg';
+		}
+	</script>	
+</head>
+<body>
+	
+</body>
+</html>

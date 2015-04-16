@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>JavaScript</title>
+	<script type="text/javascript">
+		alert ('Вариант № 10 "В предложении найти пятую гласную букву с конца. Вывести результат в новом окне."');
+		var str = prompt("Введите предложение","");
+		var len = str.length;
+		var count = 0;
+		var arr_glasn = new Array("А","а","E","е","Ё","ё","И","и","О","о","У","у","Ы","ы","Э","э","Ю","ю","Я","я");
+		var char_buf = "";
+		for (var i=len;i>0;i--) {
+		if (count<5) {
+			char_buf = str.substring(i-1,i);
+			for (var j=0;j<arr_glasn.length;j++) {
+				if (char_buf==arr_glasn[j]) {count++; break;}
+				}
+			}
+			else break;
+		}
+		if (!(count==5)) char_buf = "Такой позиции нету";
+        document.write('Вариант № 10 "В предложении найти пятую гласную букву с конца. Вывести результат в новом окне."' + '<br>');
+		document.write('Ваше предложение: ' + str + '<br>');
+		document.write('Ответ: ' + char_buf + '<br>');
+		document.write('Задание выполнил студент гр.ЦИСТв-51 Фомичёв А.В.');
+	</script>
+</head>
+<body>
+	
+</body>
+</html>

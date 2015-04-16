@@ -1,0 +1,28 @@
+body{
+	background: #bcc;
+	padding-left: 50%;
+	margin:0;
+}
+
+.main{
+	background: #0cc;
+	width: 800px;
+	height: 1600px;
+	margin-left: -400px;
+	padding-top: 100px;
+}
+h1{
+	margin: 0;
+	text-align: center;
+}
+p{
+   text-align: center;
+}
+input{
+	width: 100px;
+	height: 30px;
+}
+.button_variant{
+	width: 520px;
+	height: 130px;
+	margin-left: 140px;

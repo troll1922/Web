@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>JavaScript</title>
+	<script type="text/javascript">
+		alert ('Вариант № 3 "В предложении удалить все слова, состоящие более чем из 5 букв. Вывести результат в новом окне."');
+		var str = prompt("Введите предложение","");
+		var arr_str  = str.split(" ");
+		var dlina_arr_str = arr_str.length;
+		var str_otvet = "";
+		for (var i=0;i<dlina_arr_str;i++) {
+			if (arr_str[i].length<=5) str_otvet = str_otvet + arr_str[i] + " ";
+		}
+		document.write('Вариант № 3 "В предложении удалить все слова, состоящие более чем из 5 букв. Вывести результат в новом окне."' + '<br>');
+		document.write('Ваше предложение: ' + str + '<br>');
+		document.write('Ответ: ' + str_otvet + '<br>');
+		document.write('Задание выполнил студент гр.ЦИСТв-51 Фомичёв А.В.');
+	</script>
+</head>
+<body>
+	
+</body>
+</html>

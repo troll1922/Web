@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>JavaScript</title>
+	<script type="text/javascript">
+		alert ('Вариант № 12 "Слова, содержащие более 7 букв перенести в конец предложения, в том порядке в котором они были изначально. Вывести результат в новом окне."');
+		var str = prompt("Введите предложение","");
+		var arr_buf = new Array();
+		arr_buf = str.split(" ");
+		var arr_buf_7 = new Array();
+		for (var i=0;i<arr_buf.length;i++) {
+			if (arr_buf[i].length>7) {var a = arr_buf.splice(i,1); i--;
+			arr_buf_7.push(a);}
+		}
+		var str_otvet = arr_buf.join(" ");
+		var str_otvet2 = arr_buf_7.join(" ");
+		document.write('Вариант № 12 "Слова, содержащие более 7 букв перенести в конец предложения, в том порядке в котором они были изначально. Вывести результат в новом окне."' + '<br>');
+		document.write('Ваше предложение: ' + str + '<br>');
+		document.write('Ответ: ' + str_otvet + " " + str_otvet2 + '<br>');
+		document.write('Задание выполнил студент гр.ЦИСТв-51 Фомичёв А.В.');
+	</script>	
+</head>
+<body>
+	
+</body>
+</html>
